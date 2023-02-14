@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "../dist/",
+  },
+  "include": ["./shared-library", "./app"],
+  "files": [],
+  "references": [
+    { "path": "./shared-library" },
+    { "path": "./app" },
+  ]
+}

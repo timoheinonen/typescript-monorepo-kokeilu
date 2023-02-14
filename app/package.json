@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.110",
+    "aws-cdk-lib": "2.62.1",
+    "aws-sdk": "^2.1313.0",
+    "cdk-nag": "^2.22.5",
+    "constructs": "^10.1.249"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

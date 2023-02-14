@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
+    "paths": {
+      "shared-library": ["../shared-library/dist"],
+      "shared-library/*": ["../shared-library/dist/*"]
+    }
+  },
+  "references": [
+    { "path": "../shared-library", },
+  ],
+}
